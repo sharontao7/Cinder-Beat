@@ -30,7 +30,7 @@
  
  **********************************************************************/
 
-#include "fft.hpp"
+#include "fft/fft.hpp"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

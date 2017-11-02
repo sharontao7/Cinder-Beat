@@ -9,7 +9,8 @@
 	git = "https://github.com/rystylee/Cinder-Beat"
 	>
 	<includePath>include</includePath>
-	
+	<includePath>src</includePath>
+
 	<header>include/Beat.hpp</header>
     <header>include/fft/fft.hpp</header>
 

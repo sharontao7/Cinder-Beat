@@ -1,10 +1,11 @@
 #pragma once
 
-#include "cinder/Cinder.h"
+#include "cinder/CinderMath.h"
+#include "cinder/app/App.h"
 #include "cinder/audio/InputNode.h"
 #include "cinder/audio/MonitorNode.h"
 #include "cinder/audio/Context.h"
-#include "fft.hpp"
+#include "fft/fft.hpp"
 
 using namespace ci;
 using namespace std;

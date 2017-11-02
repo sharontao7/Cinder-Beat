@@ -145,7 +145,7 @@ void Beat::updateBand(const bool a, const int b, const int t)
 
 void Beat::update(int t)
 {
-    if(cinder::app::getElapsedSeconds() < 0.5) return;
+    if(ci::app::getElapsedSeconds() < 0.5) return;
     
     const audio::Buffer& buffer = mMonitorNode->getBuffer();
     calcFFT(mMonitorNode->getBuffer().getData(), buffer.getSize(), buffer.getNumChannels());
