@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name = "Beat"
+	id = "https://github.com/darrenmothersele/ofxBeat"
+	author = "Ryosuke Nakajima"
+	summary = "Implementation of ofxBeat in Cinder"
+	license = "MIT License"
+	git = "https://github.com/rystylee/Cinder-Beat"
+	>
+	<includePath>include</includePath>
+	
+	<header>include/Beat.hpp</header>
+    <header>include/fft/fft.hpp</header>
+
+	<source>src/Beat.cpp</source>
+    <source>src/fft/fft.cpp</source>
+</block>
+</cinder>
